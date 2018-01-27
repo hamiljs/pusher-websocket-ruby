@@ -2,12 +2,6 @@ module PusherClient
   HOST = ''
   WS_PORT = 80
   WSS_PORT = 443
-  
-  def initialize(host)
-    
-    HOST.replace(host)
-    
-  end
 
   def self.logger
     @logger ||= begin
